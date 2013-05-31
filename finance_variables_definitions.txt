@@ -1,0 +1,2 @@
+Bakke & Whited (2010) w/ compustat variable names
+Tobin's Q: (prcc_f * csho + at - ceq - txdb) / at
