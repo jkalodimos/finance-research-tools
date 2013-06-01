@@ -2,7 +2,7 @@ Tobin's Q
 1: (prcc_f * csho + at - ceq - txdb) / at  ::: Source: Bakke and Whited (2010)  
 
 Leverage:
-1:(LT / AT ::: Source: Karpoff, Lee, and Martin (2008) JFQA 
+1: LT / AT ::: Source: Karpoff, Lee, and Martin (2008) JFQA 
 
 Cash:
 1: CHE / (AT - CHE) ::: Source: Opler, Pinkowitz, Stulz, and Williamson (1999) JFE
