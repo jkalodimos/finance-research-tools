@@ -7,3 +7,18 @@ Leverage:
 Cash:
 1: CHE / (AT - CHE) ::: Source: Opler, Pinkowitz, Stulz, and Williamson (1999) JFE
 
+Labor Productivity:
+1: ln(SALE / EMP)  ::: Giroud and Mueller (2011) JF
+
+Cost of Goods Sold:
+1: COGS / SALE ::: Giroud and Mueller (2011) JF 
+
+Labor Expense:
+1: (XLR / EMP) deflated by consumper price index ::: Giroud and Mueller (2011) JF   
+
+SG&A
+1: XSGA / AT ::: Giroud and Mueller (2011) JF 
+
+R&D
+1: XRD / AT ::: Giroud and Mueller (2011) JF 
+
