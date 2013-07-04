@@ -23,6 +23,7 @@
 *******************************************************************************/
 
 
+capture program drop scar
 program define scar, rclass
     version 12
     syntax varlist, b(namelist) vcov(namelist)
@@ -33,15 +34,20 @@ program define scar, rclass
 
     foreach i of local varlist {
         foreach j of local varlist {
-        matrix `var'[1, 1] = `vcov'["`i'", "`j'"] + `var'[1, 1]
-        }
 
+        // not correct
+*        matrix `var'[1, 1] = `vcov'["`i'", "`j'"] + `var'[1, 1]
+
+        }
+        
         matrix `car'[1, 1] = `b'[1, "`i'"] + `car'[1, 1]
+
     }
 
     matrix `scar'[1, 1] = `car'[1, 1] / sqrt(`var'[1, 1])
 
     return scalar car = `car'[1, 1]
+    return scalar var = `var'[1, 1]
     return scalar scar = `scar'[1, 1]
 
 end
