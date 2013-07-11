@@ -34,10 +34,7 @@ program define scar, rclass
 
     foreach i of local varlist {
         foreach j of local varlist {
-
-        // not correct
-*        matrix `var'[1, 1] = `vcov'["`i'", "`j'"] + `var'[1, 1]
-
+            matrix `var'[1, 1] = `vcov'["`i'", "`j'"] + `var'[1, 1]
         }
         
         matrix `car'[1, 1] = `b'[1, "`i'"] + `car'[1, 1]
