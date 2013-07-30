@@ -1,6 +1,9 @@
 Tobin's Q
 1: (PRCC_F * CSHO + AT - CEQ - TXDB) / AT  ::: Source: Bakke and Whited (2010)  
 
+Book-to-Market
+1: (CEQ + TXDB) / (PRCC * CSHO) ::: Source: Core, Guay, and Rusticus (2006) JF
+
 Leverage:
 1: LT / AT ::: Source: Karpoff, Lee, and Martin (2008) JFQA 
 2: (DLTT + DD1) / AT ::: Source: Bebchuk, Cohen, and Ferrell (2009) RFS
@@ -25,3 +28,6 @@ R&D
 
 ROA
 1: NI / AT ::: Source: Bebchuk, Cohen, and Ferrell (2009) RFS
+2: OIADP / AT ::: Source: Core, Guay, and Rusticus (2006) JF
+3: OIBDP / AT ::: Source: Core, Guay, and Rusticus (2006) JF
+
