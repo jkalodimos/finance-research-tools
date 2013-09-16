@@ -1,2 +1,2 @@
 Turnover
-1: (VOL * 100) / (SHARES * 100) ::: Source: Campbell, Grossman, and Wang (1993) QJE - using monthly CRSP data
+1: (VOL * 100) / (SHARES * 1000) ::: Source: Campbell, Grossman, and Wang (1993) QJE - using monthly CRSP data
